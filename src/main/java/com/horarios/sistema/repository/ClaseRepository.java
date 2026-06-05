@@ -13,7 +13,7 @@ public interface ClaseRepository
             String dia,
             LocalTime horaInicio
     );
-
+    
     boolean existsByGrupoIdAndDiaAndHoraInicio(
             Long grupoId,
             String dia,
